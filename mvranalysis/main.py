@@ -112,7 +112,7 @@ def trace(covariates, trial, col='random'):
             plt.plot(xCord, yCord);
         else:
             plt.plot(xCord, yCord, color=col);
-
+            
 
 def traceNorm(covariates, trial, col='random'):
     if not isinstance(trial, (list, tuple)):
